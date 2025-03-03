@@ -1,15 +1,19 @@
-package com.pagamento.pagamentos;
+package com.pagamento.api;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class FakeProdutorControllerTest {
+class PaymentControllerTest {
 
     @BeforeEach
     void setUp() {
     }
 
     @Test
-    void produzirMensagem() {
+    void registrarPagamento() {
+    }
+
+    @Test
+    void getPayment() {
     }
 }

@@ -1,4 +1,4 @@
-package com.pagamento.pagamentos;
+package com.pagamento.api;
 
 import com.pagamento.event.producer.PaymentProducer;
 import io.swagger.v3.oas.annotations.Parameter;

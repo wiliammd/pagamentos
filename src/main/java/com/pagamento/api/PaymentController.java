@@ -1,4 +1,4 @@
-package com.pagamento.pagamentos;
+package com.pagamento.api;
 
 import com.pagamento.dto.PaymentDto;
 import com.pagamento.service.PaymentService;
