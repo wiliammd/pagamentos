@@ -34,7 +34,7 @@ public class PaymentServiceImpl implements PaymentService {
     }
 
     @Override
-    public void processarTransacao(PaymentDto paymentDto) {
+    public void processarPagamento(PaymentDto paymentDto) {
         PaymentEntity paymentEntity = paymentRepository.findById(paymentDto.getTransacaoId()).orElseThrow(
                 () -> new PaymentNotFoundException("Pagamento não encontrado "));
         //TODO qualquer outra regra que queria implementar

@@ -27,5 +27,5 @@ public interface PaymentService {
      * metodo que processa transação.
      * @param  paymentDto dto com dados de pagamento.
      */
-    void processarTransacao(PaymentDto paymentDto);
+    void processarPagamento(PaymentDto paymentDto);
 }
